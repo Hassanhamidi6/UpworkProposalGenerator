@@ -5,9 +5,9 @@ from langchain_core.messages import SystemMessage, HumanMessage
 import os 
 from dotenv import load_dotenv
 
+load_dotenv()
 api_key=st.secrets("BotApi")
 
-# load_dotenv()
 # api_key=os.getenv("BotApi")
 
 
