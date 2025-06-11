@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key=st.secrets("BotApi")
+api_key=st.secrets["BotApi"]
 
 # api_key=os.getenv("BotApi")
 
